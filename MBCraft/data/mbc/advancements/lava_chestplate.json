@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mbc:lava_chestplate"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mbc:crafting/lava_chestplate"
+    }
+}

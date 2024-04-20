@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:structure_feature",
+  "config": {
+    "start_pool": "mbc:shadowbase"
+  }
+}

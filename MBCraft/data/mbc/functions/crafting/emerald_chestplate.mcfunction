@@ -1,0 +1,7 @@
+recipe take @s mbc:emerald_chestplate
+
+advancement revoke @s only mbc:emerald_chestplate
+
+give @s golden_chestplate{display:{Name:'{"text":"Emerald Chestplate","color":"green","italic":false}',Lore:['[{"text":"Defense: ","color":"gray","italic":false},{"text":"+6","color":"green","italic":false}]','[{"text":"Luck: ","color":"gray","italic":false},{"text":"+10","color":"green","italic":false}]','{"text":"§"}','{"text":"Full Set Bonus: Fortune\'s Blessing","color":"yellow","italic":false}','{"text":"Fishing rods you hold get enchanted.","color":"gray","italic":false}','{"text":"§"}','{"text":"UNCOMMON CHESTPLATE","color":"green","bold":true,"italic":false}']},HideFlags:6,Unbreakable:1b,EmeraldChestplate:1b,AttributeModifiers:[{AttributeName:"generic.luck",Name:"generic.luck",Amount:10,Operation:0,UUID:[I;996862542,1974026304,-1152863174,61820523],Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUID:[I;840264746,848184235,-1647814925,1384934158],Slot:"chest"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:4,Operation:0,UUID:[I;402890516,1674330741,-1392704525,-556576259],Slot:"chest"}]}
+
+clear @s minecraft:knowledge_book

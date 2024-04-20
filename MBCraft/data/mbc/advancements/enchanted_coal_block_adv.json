@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mbc:enchanted_coal_block"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mbc:crafting/enchanted_coal_block"
+    }
+}

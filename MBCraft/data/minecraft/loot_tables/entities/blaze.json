@@ -1,0 +1,58 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 99
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Blaze Wand\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+4\",\"color\":\"red\",\"italic\":false}]','{\"text\":\"§\"}','[{\"text\":\"Abilitity: Flame Powder\",\"color\":\"gold\",\"italic\":false},{\"text\":\" RIGHT CLICK\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}]','[{\"text\":\"Spreads flame around you that deals \",\"color\":\"gray\",\"italic\":false},{\"text\":\"30 damage\",\"color\":\"red\",\"italic\":false}]','[{\"text\":\"Mana Cost: \",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\"50\",\"color\":\"aqua\",\"italic\":false}]','[{\"text\":\"Cooldown: \",\"color\":\"dark_gray\",\"italic\":false},{\"text\":\"3s\",\"color\":\"green\"}]','{\"text\":\"§\"}','{\"text\":\"EPIC WAND\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}']},HideFlags:6,Unbreakable:1b,BlazeWand:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-440946376,-1986507430,-1514829768,642438442],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:blaze_rod"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

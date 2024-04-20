@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mbc:lava_boots"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mbc:crafting/lava_boots"
+    }
+}

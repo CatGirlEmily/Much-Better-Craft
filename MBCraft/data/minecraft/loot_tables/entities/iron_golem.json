@@ -1,0 +1,112 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 12
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Golem Boots\",\"color\":\"blue\",\"italic\":false}',Lore:['[{\"text\":\"Health: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+3\",\"color\":\"green\",\"italic\":false}]','[{\"text\":\"Defense: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+4\",\"color\":\"green\"}]','{\"text\":\"Full Set Bonus: Stunlock\",\"color\":\"gold\",\"italic\":false}','[{\"text\":\"Sneaking stuns nearby mobs with cost of \",\"color\":\"gray\",\"italic\":false},{\"text\":\"-30✎ Mana\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"You don\\'t take any fall damage while wearing this armor\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,GolemBoots:1,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:3,Operation:0,UUID:[I;-1978075447,-594851309,-1747585644,1188236155],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-606856124,695355196,-1614733612,-1282622000],Slot:\"feet\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Golem Leggings\",\"color\":\"blue\",\"italic\":false}',Lore:['[{\"text\":\"Health: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+5\",\"color\":\"green\",\"italic\":false}]','[{\"text\":\"Defense: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+6\",\"color\":\"green\",\"italic\":false}]','{\"text\":\"Full Set Bonus: Stunlock\",\"color\":\"gold\",\"italic\":false}','[{\"text\":\"Sneaking stuns nearby mobs with cost of \",\"color\":\"gray\",\"italic\":false},{\"text\":\"-30✎ Mana\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"You don\\'t take any fall damage while wearing this armor\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,GolemLeggings:1,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:5,Operation:0,UUID:[I;1177510040,-1915204008,-1492042287,-1846801271],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1558288262,-1157673710,-1639509600,1422953775],Slot:\"legs\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Golem Helmet\",\"color\":\"blue\",\"italic\":false}',Lore:['[{\"text\":\"Health: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+4\",\"color\":\"green\",\"italic\":false}]','[{\"text\":\"Defense: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+5\",\"color\":\"green\",\"italic\":false}]','{\"text\":\"Full Set Bonus: Stunlock\",\"color\":\"gold\",\"italic\":false}','[{\"text\":\"Sneaking stuns nearby mobs with cost of \",\"color\":\"gray\",\"italic\":false},{\"text\":\"-30✎ Mana\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"You don\\'t take any fall damage while wearing this armor\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,GolemHead:1,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:4,Operation:0,UUID:[I;-294580840,-1768734613,-1687564739,-1942656045],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;-1991929085,-468628031,-1306006694,-1013412372],Slot:\"head\"}],SkullOwner:\"golem\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Golem Chestplate\",\"color\":\"blue\",\"italic\":false}',Lore:['[{\"text\":\"Health: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+6\",\"color\":\"green\",\"italic\":false}]','[{\"text\":\"Defense: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+7\",\"color\":\"green\",\"italic\":false}]','{\"text\":\"Full Set Bonus: Stunlock\",\"color\":\"gold\",\"italic\":false}','[{\"text\":\"Sneaking stuns nearby mobs with cost of \",\"color\":\"gray\",\"italic\":false},{\"text\":\"-30✎ Mana\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"You don\\'t take any fall damage while wearing this armor\",\"color\":\"gray\",\"italic\":false}']},HideFlags:4,Unbreakable:1b,GolemChestplate:1,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:6,Operation:0,UUID:[I;-236742980,-1312669173,-1423932467,1945041217],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;726828686,392054902,-1182652890,-71431033],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

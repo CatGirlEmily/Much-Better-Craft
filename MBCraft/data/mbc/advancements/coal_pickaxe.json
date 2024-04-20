@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mbc:coal_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mbc:crafting/coal_pickaxe"
+    }
+}

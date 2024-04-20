@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mbc:emerald_helmet"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mbc:crafting/emerald_helmet"
+    }
+}
